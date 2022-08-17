@@ -1,0 +1,578 @@
+:root{
+  --color-one: #0B0C15;
+  --color-two: #1B1D2C;
+  --color-three: #232536;
+  --color-four: #26283D;
+  --color-five: #282A3F;
+  --color-six: #282A3F;
+  --color-seven: #2A2C41;
+  --color-eigth: #676EBE;
+  --color-nine: #A3AAB0;
+  --color-ten: #6B7288;
+
+  --i: 0;
+  --i: 1;
+  --i: 2;
+  --i: 3;
+}
+*{
+  color: var(--color-nine);
+}
+a{
+  text-decoration: none !important;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* NavBar Zone */
+.navbar{
+  background: var(--color-three);
+  color: var(--color-nine);
+}
+.navEdit{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.imgNav{
+  margin-right: 10px;
+  filter: invert(69%) sepia(11%) saturate(179%) hue-rotate(166deg) brightness(97%) contrast(87%);
+  width: 50px;
+  height: auto;
+}
+.navLinks{
+  display: flex;
+  flex-direction: row;
+  align-self: end;
+  margin-bottom: 4px;
+  /* margin-left: 130px; */
+}
+.iconEdit{
+  margin-right: 5px;
+}
+.colorName{
+  color: rgba(0, 95, 0, 0.706);
+}
+.links{
+  color: var(--color-nine) !important;
+}
+
+
+
+/* End NavBar */
+
+/* ----------------------------------------------------------------- */
+
+/* Header Zone */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.imgHeaderCircle{
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 1px solid var(--color-ten);
+  object-fit: contain;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 50px rgba(66,66,66,.34901960784313724), inset 0px 0px 50px rgba(66,66,66,.34901960784313724);
+
+}
+.headerCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* End Header */
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* About Me Zone */
+
+.h1{
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px !important;
+}
+.h1::after, .h1::before{
+  content: '';
+  position: absolute;
+  width: 350px;
+  height: 1.5px;
+  background-color: var(--color-nine);
+  top: 25px;
+}
+.h1::before{
+  left: -370px;
+}
+.h1::after{
+  right: -370px;
+}
+.aboutMe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.h5{
+  text-align: justify;
+  padding: 0px 100px;
+}
+
+
+/* End About Me */
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* CV Toggle Zone */
+
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.center>span{
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 1.2rem;
+  margin: 5px 0px;
+}
+.center>input::before{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  top: -1px;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,.2);
+  transform: scale(1.1);
+  transition: .5s;
+}
+.center>input{
+  position: relative;
+  -webkit-appearance: none;
+  width: 75px;
+  height: 30px;
+  /* background: #fb0; */
+  background: var(--color-six);
+  outline: none;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+  transition: .5s;
+  cursor: pointer;
+}
+.center>input:checked[type="checkbox"]::before {
+  left: 45px;
+}
+.center>input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  top: -1px;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,.2);
+  transform: scale(1.1);
+  transition: .5s;
+}
+.center>input:checked[type="checkbox"] {
+  /* background: #03a9f4; */
+  background: var(--color-nine);
+}
+
+.box, .box>form>label {
+  width: 60px;
+  height: 60px;
+  transition: .5s;
+}
+.box{
+  position: relative;
+  z-index: 1000;
+  margin: 20px 0;
+}
+.box>form>input {
+  width: 100%;
+  height: 100%;
+  background-color: initial;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 19px;
+  padding-left: 20px;
+  color: grey;
+  transition: .5s;
+  opacity: 0;
+}
+.box>form>input, .box>form>label:hover {
+  box-shadow: -10px -10px 15px rgba(58,58,58,.09019607843137255),10px 10px 15px rgba(66,66,66,.34901960784313724);
+}
+.box>form>label:hover {
+  transform: scale(1.1);
+}
+.box>form>label {
+  position: absolute;
+  right: 0;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  color: grey;
+  font-size: 23px;
+  cursor: pointer;
+  box-shadow: -5px -5px 8px rgba(58,58,58,.09019607843137255),5px 5px 10px rgba(66,66,66,.34901960784313724);
+  padding: 3px;
+  font-size: 30px;
+}
+#check:checked + .box {
+  width: 500px;
+}
+#check:checked + .box > form > input {
+  opacity: 1;
+  background: #fff;
+}
+#check:checked + .box > form > label {
+  box-shadow: none;
+}
+#check {
+  display: none;
+}
+button, input {
+  overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+[type="checkbox"], [type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+.form-inp{
+  height: 100%;
+}
+
+
+.pdfFile{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* End CV Toggle */
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* Habilities Zone */
+
+.tecnologies{
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-nine);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px;
+  max-width: 916px;
+}
+.imgHabilities{
+  width: 130px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid var(--color-nine);
+  margin-bottom: 5px;
+}
+.github{
+  filter: invert(69%) sepia(11%) saturate(179%) hue-rotate(166deg) brightness(97%) contrast(87%);
+}
+.tecInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* End Habilities */
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* Portfolio Zone */
+
+.wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+/* Contenedor */
+.boxPortfolio{
+  position: relative;
+  width: auto;
+  border-radius: 15px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 50px rgba(66,66,66,.34901960784313724), inset 0px 0px 50px rgba(66,66,66,.34901960784313724);
+  transition: all 500ms ease-out;
+}
+/* img */
+.imgPortfolio{
+  position: relative;
+  width: 450px;
+  height: auto;
+  overflow: hidden;
+  transition: all 500ms ease-out;
+}
+/* capa */
+.cap{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: #565a7e82;
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.boxPortfolio>a:hover > .cap{
+  opacity: 1;
+  visibility: visible;
+}
+.boxPortfolio>a:hover > .cap .imgHover{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.boxPortfolio>a > .cap .imgHover{
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+.boxPortfolio>a > .cap p{
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+}
+.infoHover{
+  display: flex;
+  flex-direction: column;
+}
+.infoHover>b{
+  color: #fff;
+
+}
+.imgHover{
+  width: 50px;
+  background-color: #565a7e20;
+}
+
+
+
+
+
+
+
+/* End Portfolio */
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* Contact Zone */
+.contactColumn{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.marginContactLeft{
+  margin-top: 60px;
+}
+/* .marginContactRight{
+  margin-right: -95px;
+} */
+/* !CUBO */
+.one{
+  --i:0;
+}
+.two{
+  --i:1;
+}
+.three{
+  --i:2;
+}
+.four{
+  --i:3;
+}
+.cube{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  animation: animate 4s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: rotateX(-30deg) rotateY(0deg);
+  }
+  100%{
+    transform: rotateX(-30deg) rotateY(360deg);
+  }
+}
+.cube div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+.cube div span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#151515, #A3AAB0);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
+}
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background: #222;
+  transform: rotateX(90deg) translateZ(75px);
+}
+.top:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background: #A3AAB0;
+  transform: translateZ(-230px);
+  filter: blur(20px);
+  box-shadow: 0 0 120px rgba(163, 170, 176,0.2), 0 0 200px rgba(163, 170, 176,0.4), 0 0 300px rgba(163, 170, 176,0.6), 0 0 400px rgba(163, 170, 176,0.8), 0 0 500px rgba(163, 170, 176,1);
+}
+/* .box{
+  color: rgb(163, 170, 176);
+  color: #6B7288;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Contact */
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* Footer zone */
+.footer{
+  margin-top: 40px;
+}
+.footer>div{
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-three);
+}
+.footer>div>h5{
+  margin-top: 25px;
+  color: var(--color-nine);
+}
+.icon-size{
+  font-size: 30px;
+  color: var(--color-nine);
+}
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin: 15px 0;
+}
+.icon-circle{
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--color-nine);
+  justify-content: center;
+  align-items: center;
+}
+/* End Footer */
