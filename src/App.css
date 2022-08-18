@@ -22,6 +22,17 @@ a{
   text-decoration: none !important;
 }
 
+/* Particles */
+
+#particles-js{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+
+/* End Particles */
 
 
 /* ----------------------------------------------------------------- */
@@ -54,8 +65,14 @@ a{
   margin-right: 5px;
 }
 .colorName{
-  color: rgba(0, 95, 0, 0.706);
+  color: #fff;
+  text-shadow: 0 0 5px #004420, 0 0 10px #004420, 0 0 20px #004420,  0 0 40px #004420,  0 0 60px #004420,  0 0 80px #004420;
 }
+
+/* .name{
+  color: #fff;
+  text-shadow: 0 0 1px #A3AAB0, 0 0 5px #A3AAB0, 0 0 10px #A3AAB0,  0 0 15px #A3AAB0,  0 0 20px #A3AAB0,  0 0 25px #A3AAB0;
+} */
 .links{
   color: var(--color-nine) !important;
 }
@@ -78,13 +95,15 @@ a{
   margin: 20px 0px;
 }
 .imgHeaderCircle{
+  position: relative;
+  z-index: 99;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  border: 1px solid var(--color-ten);
   object-fit: contain;
   padding: 5px;
   margin-bottom: 10px;
+  border: 1px solid var(--color-ten);
   box-shadow: 0px 0px 50px rgba(66,66,66,.34901960784313724), inset 0px 0px 50px rgba(66,66,66,.34901960784313724);
 
 }
@@ -108,6 +127,7 @@ a{
   display: inline-block;
   position: relative;
   margin-bottom: 20px !important;
+  z-index: 99;
 }
 .h1::after, .h1::before{
   content: '';
@@ -291,6 +311,86 @@ button, input, optgroup, select, textarea {
   align-items: center;
 }
 
+.aButton{
+  position: relative;
+  z-index: 99;
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  background: #262c37;
+  letter-spacing: 2px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.aButton:hover{
+  color: rgba(255, 255, 255, 1);
+}
+.aButton span{
+  display: block;
+  position: absolute;
+  background: #2894ff;
+}
+.aButton span:nth-child(1){
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+.aButton:hover span:nth-child(1){
+  transform: scaleY(1);
+  transform-origin: botton;
+  transition: transform 0.5s;
+}
+
+.aButton span:nth-child(2){
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+.aButton:hover span:nth-child(2){
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+.aButton span:nth-child(3){
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+.aButton:hover span:nth-child(3){
+  transform: scaleY(1);
+  transform-origin: botton;
+  transition: transform 0.5s;
+}
+
+.aButton span:nth-child(4){
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+.aButton:hover span:nth-child(4){
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
 
 
 
@@ -319,6 +419,8 @@ button, input, optgroup, select, textarea {
   border-radius: 50%;
   border: 2px solid var(--color-nine);
   margin-bottom: 5px;
+  position: relative;
+  z-index: 99;
 }
 .github{
   filter: invert(69%) sepia(11%) saturate(179%) hue-rotate(166deg) brightness(97%) contrast(87%);
@@ -445,6 +547,7 @@ button, input, optgroup, select, textarea {
 }
 .marginContactLeft{
   margin-top: 60px;
+  margin-left: 60px;
 }
 /* .marginContactRight{
   margin-right: -95px;
@@ -515,11 +618,13 @@ button, input, optgroup, select, textarea {
   filter: blur(20px);
   box-shadow: 0 0 120px rgba(107, 114, 136,0.2), 0 0 200px rgba(107, 114, 136,0.4), 0 0 300px rgba(107, 114, 136,0.6), 0 0 400px rgba(107, 114, 136,0.8), 0 0 500px rgba(107, 114, 136,1);
 }
-.box{
+/* .bla{
   color: rgb(163, 170, 176);
   color: rgb(107, 114, 136);
   color: #6B7288;
-}
+  color: rgb(40, 42, 63);
+  color: #282A3F;
+} */
 
 
 
@@ -542,6 +647,8 @@ button, input, optgroup, select, textarea {
 /* Footer zone */
 .footer{
   margin-top: 40px;
+  position: relative;
+  z-index: 99;
 }
 .footer>div{
   height: auto;
@@ -557,8 +664,10 @@ button, input, optgroup, select, textarea {
   color: var(--color-nine);
 }
 .icon-size{
-  font-size: 30px;
-  color: var(--color-nine);
+  /* font-size: 30px; */
+  /* color: var(--color-nine); */
+  color: var(--color-nine) !important;
+
 }
 .icon-container{
   display: flex;
@@ -572,8 +681,91 @@ button, input, optgroup, select, textarea {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: var(--color-nine);
+  /* background-color: var(--color-nine); */
   justify-content: center;
   align-items: center;
 }
+
+.a-decoration{
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  text-align: center;
+  /* background: #ccc; */
+  text-decoration: none;
+  color: var(--color-nine) !important;
+  margin: 0 10px;
+  transition: .5s;
+}
+.a-decoration span{
+  position: absolute;
+  transition: transform .5s;
+}
+.a-decoration span:nth-child(1),
+.a-decoration span:nth-child(3){
+  width: 100%;
+  height: 1px;
+  background: var(--color-nine);
+}
+.a-decoration span:nth-child(1){
+  top: 0;
+  left: 0;
+  transform-origin: right;
+}
+.a-decoration:hover span:nth-child(1){
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+}
+
+.a-decoration span:nth-child(3){
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+}
+.a-decoration:hover span:nth-child(3){
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .5s;
+}
+
+
+.a-decoration span:nth-child(2),
+.a-decoration span:nth-child(4){
+  width: 1px;
+  height: 100%;
+  background: var(--color-nine);
+}
+.a-decoration span:nth-child(2){
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+.a-decoration:hover span:nth-child(2){
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform .5s;
+}
+
+.a-decoration span:nth-child(4){
+  top: 0;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+.a-decoration:hover span:nth-child(4){
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform .5s;
+}
+
+
+
+
+
+
 /* End Footer */

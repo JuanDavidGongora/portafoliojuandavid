@@ -4,28 +4,11 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 const NavBar = () => {
   return (
-
-    // <Navbar sticky="top" variant="dark" style={{ color: "#A3AAB0" }}>
-    //   <Container>
-    //     <Navbar.Brand href="#home" className="navEdit">
-    //       <img
-    //         src={imgNavBar}
-    //         className="d-inline-block align-text-top imgNav"
-    //       />
-    //       <h4>Andrés Rodríguez</h4>
-    //     </Navbar.Brand>
-    //     <Nav className="navLinks">
-    //       <Nav.Link href="#home">Home</Nav.Link>
-    //       <Nav.Link href="#features">Features</Nav.Link>
-    //       <Nav.Link href="#pricing">Pricing</Nav.Link>
-    //     </Nav>
-    //   </Container>
-    // </Navbar>
         <Navbar expand="lg" sticky="top">
         <Container>
              <Navbar.Brand href="#home" className="navEdit">
            <h4 className="colorName">{"< "}</h4>
-           <h4>Andrés Rodríguez</h4>
+           <h4 className="name">Andrés Rodríguez</h4>
            <h4 className="colorName">{" />"}</h4>
          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

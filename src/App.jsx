@@ -8,12 +8,14 @@ import Habilities from './components/Habilities';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import About from './components/About';
+import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
 
   return (
     <>
     <NavBar/>
+    <ParticlesBackground/>
     <div className='container mt-3 body' style={{background: "#0B0C15"}}>
       <Header/>
       <CvToggle/>

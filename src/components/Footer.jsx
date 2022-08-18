@@ -9,31 +9,37 @@ const Footer = () => {
             </h5>
             <div className='icon-container'>
                 <a 
-                href="https://www.instagram.com/academlohq/" 
+                href="https://github.com/andresrbaez" 
                 target="_blank"
                 className='a-decoration'
                 >
-                    <div className='icon-circle'>
-                        <i className='bx bxl-instagram-alt icon-size'></i>
-                    </div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i className='bx bxl-github icon-size' aria-hidden='true'></i>
                 </a>
                 <a 
                 href="https://www.linkedin.com/in/andresrbaez/" 
                 target="_blank"
                 className='a-decoration'
                 >
-                    <div className='icon-circle'>
-                            <i className='bx bxl-linkedin icon-size'></i>
-                    </div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i className='bx bxl-linkedin icon-size' aria-hidden='true'></i>
                 </a>
                 <a 
-                href="https://www.youtube.com/c/academlo" 
+                href="https://wa.me/573178647007" 
                 target="_blank"
                 className='a-decoration'
                 >
-                    <div className='icon-circle'>
-                        <i className='bx bxl-youtube icon-size'></i>
-                    </div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i className='bx bxl-whatsapp icon-size' aria-hidden='true'></i>
                 </a>
             </div>
         </div>
