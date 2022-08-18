@@ -42,7 +42,7 @@ const Contact = () => {
 
 
         <div className="marginContactRight">
-            <Form style={{width: "400px"}}>
+            <Form style={{width: "400px", position: "relative", zIndex: "99"}}>
             <InputGroup className="mb-3">
                 <Form.Control
                 placeholder="First name"

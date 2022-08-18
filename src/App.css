@@ -47,6 +47,7 @@ a{
   display: flex;
   flex-direction: row;
   align-items: end;
+  margin-right: 400px !important;
 }
 .imgNav{
   margin-right: 10px;
@@ -63,10 +64,12 @@ a{
 }
 .iconEdit{
   margin-right: 5px;
+  color: #fff;
+  text-shadow: 0 0 1px #004420, 0 0 5px #004420, 0 0 10px #004420, 0 0 15px #004420, 0 0 20px #004420, 0 0 25px #004420;
 }
 .colorName{
   color: #fff;
-  text-shadow: 0 0 5px #004420, 0 0 10px #004420, 0 0 20px #004420,  0 0 40px #004420,  0 0 60px #004420,  0 0 80px #004420;
+  text-shadow: 0 0 1px #004420, 0 0 5px #004420, 0 0 10px #004420, 0 0 15px #004420, 0 0 20px #004420, 0 0 25px #004420;
 }
 
 /* .name{
@@ -421,10 +424,11 @@ button, input, optgroup, select, textarea {
   margin-bottom: 5px;
   position: relative;
   z-index: 99;
+  box-shadow: 0 0 1px #6B7288, 0 0 5px #6B7288, 0 0 10px #6B7288, 0 0 15px #6B7288, 0 0 20px #6B7288, 0 0 25px #6B7288;
 }
-.github{
+/* .github{
   filter: invert(69%) sepia(11%) saturate(179%) hue-rotate(166deg) brightness(97%) contrast(87%);
-}
+} */
 .tecInfo{
   display: flex;
   flex-direction: column;
