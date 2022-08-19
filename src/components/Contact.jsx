@@ -1,5 +1,9 @@
 import React from "react";
-import { Form, InputGroup } from "react-bootstrap";
+import phoneImg from "../images/phone.png"
+import emailImg from "../images/email.png"
+import phoneRingImg from "../images/phoneRing.png"
+import emailOpenImg from "../images/openMail.png"
+
 
 const Contact = () => {
   return (
@@ -8,12 +12,6 @@ const Contact = () => {
         <h1 className="h1">Contáctame</h1>
       </div>
       <div className="contactColumn">
-
-
-
-
-
-
 
         <div className="marginContactLeft">
             <div className="cube">
@@ -26,63 +24,27 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <div className="marginContactRight">
-            <Form style={{width: "400px", position: "relative", zIndex: "99"}}>
-            <InputGroup className="mb-3">
-                <Form.Control
-                placeholder="First name"
-                size="lg"
-                aria-label="Username"
-                aria-describedby="basic-addon1"
-                />
-            </InputGroup>
-            <InputGroup className="mb-3">
-                <Form.Control
-                placeholder="Last name"
-                size="lg"
-                aria-label="Username"
-                aria-describedby="basic-addon1"
-                />
-            </InputGroup>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Control 
-                type="email" 
-                placeholder="name@example.com"
-                size="lg" 
-                />
-            </Form.Group>
-            <InputGroup className="mb-3">
-                <Form.Control
-                placeholder="(123) 456 7890"
-                size="lg"
-                aria-label="Username"
-                aria-describedby="basic-addon1"
-                />
-            </InputGroup>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                <Form.Control 
-                as="textarea" 
-                size="lg"
-                rows={3} 
-                placeholder="Text area" 
-                />
-            </Form.Group>
-            </Form>
+
+            <a href="tel:+573178647007" target="_blank" className="aButton contactButton">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i className='bx bxs-phone iconCon'></i>
+                +57 (317) 864 7007
+            </a>
+
+            <a href="mailto:andres.baez24@hotmail.com" target="_blank" className="aButton contactButton">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i className='bx bxs-envelope iconCon'></i>
+                andres.baez24@hotmail.com
+            </a>
+
         </div>
       </div>
     </div>

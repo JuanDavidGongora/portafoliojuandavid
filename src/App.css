@@ -550,15 +550,54 @@ button, input, optgroup, select, textarea {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 400px;
+  padding: 0 130px;
 }
 .marginContactLeft{
   margin-top: 60px;
-  margin-left: 60px;
+  margin-left: 50px;
 }
-/* .marginContactRight{
-  margin-right: -95px;
-} */
+.marginContactRight{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactImg{
+  width: 80px;
+  filter: invert(69%) sepia(15%) saturate(129%) hue-rotate(165deg) brightness(96%) contrast(89%);
+}
+.contactButton{
+  width: 460px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+  border-radius: 5px;
+  text-transform: lowercase !important;
+}
+
+.iconCon{
+  font-size: 80px;
+  transition: 0.5s;
+}
+.contactButton:hover{
+  color: rgba(255, 255, 255, 1) !important;
+}
+.iconCon:hover{
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+
+
+
+
+
+
+
+
 /* !CUBO */
 .one{
   --i:0;
