@@ -6,11 +6,11 @@ const CvToggle = () => {
   return (
     <>
       <div className="center">
-        <span>
+        {/* <span>
             <b>
                 CV File
             </b>
-        </span>
+        </span> */}
         <input
           type="checkbox"
           checked={toggle}
@@ -25,7 +25,7 @@ const CvToggle = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                PDF Ing
+                CV Eng
             </a>
             </>
         ) : (
@@ -35,7 +35,7 @@ const CvToggle = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                PDF Esp
+                HV Esp
             </a>
             </>
         )}

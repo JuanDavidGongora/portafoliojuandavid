@@ -10,11 +10,11 @@ const Header = () => {
                     <img src={personalImg} className="imgHeaderCircle" />
                 </div>
                 <div>
-                    <h1>Frontend Developer</h1>
+                    <h1>Desarrollador Front End</h1>
                 </div>
                 <div>
-                    <h5>
-                        Description
+                    <h5 style={{position: "relative", zIndex: "99"}}>
+                        Me encantan los retos y los videojuegos 🕹️
                     </h5>
                 </div>
             </div>

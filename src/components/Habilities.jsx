@@ -10,10 +10,10 @@ import gitHub from '../images/Github.png'
 
 const Habilities = () => {
     return (
-        <div className='aboutMe'>
+        <div className='aboutMe' id='s-tecnologies'>
             <div>
                 <h1 className='h1'>
-                    Habilidades
+                    Tecnologías
                 </h1>
             </div>
             <div className='tecnologies'>

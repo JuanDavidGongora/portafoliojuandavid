@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className='footer'>
         <div>
             <h5>
-                © Academlo 2022
+                © Andrés Rodríguez Developer
             </h5>
             <div className='icon-container'>
                 <a 

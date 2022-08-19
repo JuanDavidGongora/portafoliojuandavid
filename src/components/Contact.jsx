@@ -3,9 +3,9 @@ import { Form, InputGroup } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div className="aboutMe">
+    <div className="aboutMe" id='s-contact'>
       <div>
-        <h1 className="h1">Contactame</h1>
+        <h1 className="h1">Contáctame</h1>
       </div>
       <div className="contactColumn">
 

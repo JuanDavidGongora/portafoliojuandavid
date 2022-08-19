@@ -14,7 +14,7 @@ import gitHub from '../images/Github.png'
 
 const Portfolio = () => {
     return (
-        <div className='aboutMe'>
+        <div className='aboutMe' id='s-portfolio'>
             <div>
                 <h1 className='h1'>
                     Portafolio

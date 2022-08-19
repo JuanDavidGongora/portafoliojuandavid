@@ -16,23 +16,23 @@ const NavBar = () => {
             <Nav className="navLinks">
               <Nav.Link href="#home" className="links">
               <i className='bx bxs-home-alt-2 iconEdit'></i>
-                Home
+                Inicio
               </Nav.Link>
-              <Nav.Link href="#home" className="links">
+              <Nav.Link href="#s-about" className="links">
               <i className='bx bxs-user iconEdit'></i>
-                About Me
+                Acerca de mí
               </Nav.Link>
-              <Nav.Link href="#link" className="links">
+              <Nav.Link href="#s-tecnologies" className="links">
               <i className='bx bx-expand-horizontal iconEdit'></i>
-                Habilities
+                Tecnologías
               </Nav.Link>
-              <Nav.Link href="#link" className="links">
+              <Nav.Link href="#s-portfolio" className="links">
               <i className='bx bx-laptop iconEdit'></i>
-                Portfolio
+                Portafolio
               </Nav.Link>
-              <Nav.Link href="#link" className="links">
+              <Nav.Link href="#s-contact" className="links">
               <i className='bx bxs-envelope iconEdit'></i>
-                Contact
+                Contáctame
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
