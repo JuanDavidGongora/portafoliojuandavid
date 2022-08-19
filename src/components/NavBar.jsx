@@ -12,7 +12,7 @@ const NavBar = () => {
            <h4 className="colorName">{" />"}</h4>
          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav navLinks">
+          <Navbar.Collapse id="basic-navbar-nav navLinks" style={{justifyContent: "end"}}>
             <Nav className="navLinks">
               <Nav.Link href="#home" className="links">
               <i className='bx bxs-home-alt-2 iconEdit'></i>

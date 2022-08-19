@@ -13,7 +13,7 @@ const Header = () => {
                     <h1>Desarrollador Front End</h1>
                 </div>
                 <div>
-                    <h5 style={{position: "relative", zIndex: "99"}}>
+                    <h5 className='h5D' style={{position: "relative", zIndex: "99"}}>
                         Me encantan los retos y los videojuegos 🕹️
                     </h5>
                 </div>

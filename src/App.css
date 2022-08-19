@@ -47,7 +47,7 @@ a{
   display: flex;
   flex-direction: row;
   align-items: end;
-  margin-right: 322px !important;
+  /* margin-right: 322px !important; */
 }
 .imgNav{
   margin-right: 10px;
@@ -549,10 +549,10 @@ button, input, optgroup, select, textarea {
 .contactColumn{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: auto;
   justify-content: space-between;
   height: 400px;
-  padding: 0 130px;
+  min-width: 880px;
 }
 .marginContactLeft{
   margin-top: 60px;
@@ -815,3 +815,266 @@ button, input, optgroup, select, textarea {
 
 
 /* End Footer */
+
+
+
+
+
+@media (max-width: 991px) {
+  .wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .boxPortfolio{
+    display: block;
+  }
+  .imgPortfolio{
+    width: 335px;
+  }
+
+}
+@media (max-width: 950px) {
+  .wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .h1{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px !important;
+    z-index: 99;
+  }
+  .h1::after, .h1::before{
+    content: '';
+    position: absolute;
+    width: 255px;
+    height: 1.5px;
+    background-color: var(--color-nine);
+    top: 25px;
+  }
+  .h1::before{
+    left: -280px;
+  }
+  .h1::after{
+    right: -280px;
+  }
+  .h5{
+    padding: 0;
+  }
+
+  .contactColumn{
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    align-items: center;
+  }
+  .marginContactLeft{
+    margin-left: 0;
+    margin-bottom: 150px;
+  }
+  .marginContactRight{
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+}
+@media (max-width: 767px) {
+  .wrap{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .h1{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px !important;
+    z-index: 99;
+  }
+  .h1::after, .h1::before{
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 1.5px;
+    background-color: var(--color-nine);
+    top: 25px;
+  }
+  .h1::before{
+    left: -200px;
+  }
+  .h1::after{
+    right: -200px;
+  }
+  .h5{
+    padding: 0;
+  }
+
+  .contactColumn{
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    align-items: center;
+  }
+  .marginContactLeft{
+    margin-left: 0;
+    margin-bottom: 150px;
+  }
+  .marginContactRight{
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .imgPortfolio{
+    width: 480px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .imgPortfolio{
+    width: 100%;
+    max-width: 480px;
+  }
+  .h1::after, .h1::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 1.5px;
+    background-color: var(--color-nine);
+    top: 25px;
+  }
+  .h1::before{
+    left: -180px;
+  }
+  .h1::after{
+    right: -180px;
+  }
+}
+@media (max-width: 600px) {
+  .imgPortfolio{
+    width: 100%;
+    max-width: 480px;
+  }
+  .h1::after, .h1::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 1.5px;
+    background-color: var(--color-nine);
+    top: 25px;
+  }
+  .h1::before{
+    left: -150px;
+  }
+  .h1::after{
+    right: -150px;
+  }
+}
+@media (max-width: 490px) {
+  .imgPortfolio{
+    width: 100%;
+    max-width: 480px;
+  }
+  .h1::after, .h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1.5px;
+    background-color: var(--color-nine);
+    top: 25px;
+  }
+  .h1::before{
+    left: -130px;
+  }
+  .h1::after{
+    right: -130px;
+  }
+
+  .contactButton{
+    width: 100%;
+    max-width: 460px;
+  }
+  .iconCon{
+    font-size: 70px;
+  }
+}
+@media (max-width: 435px) {
+  .imgPortfolio{
+    width: 100%;
+    max-width: 480px;
+  }
+  .h1::after, .h1::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1.5px;
+    background-color: var(--color-nine);
+    top: 25px;
+  }
+  .h1::before{
+    left: -100px;
+  }
+  .h1::after{
+    right: -100px;
+  }
+
+  .contactButton{
+    width: 100%;
+    max-width: 400px;
+  }
+  .iconCon{
+    font-size: 60px;
+  }
+  .h5{
+    padding: 0 20px;
+  }
+  .tecnologies{
+    max-width: 400px;
+  }
+  .h5D{
+    padding: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 410px) {
+
+  .contactButton{
+    width: 100%;
+    max-width: 380px;
+    gap: 15px;
+  }
+  .iconCon{
+    font-size: 60px;
+  }
+  .h5{
+    padding: 0 20px;
+  }
+  .tecnologies{
+    max-width: 400px;
+  }
+  .h5D{
+    padding: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 390px) {
+
+  .contactButton{
+    width: 100%;
+    max-width: 300px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .iconCon{
+    font-size: 60px;
+  }
+  .h5{
+    padding: 0 20px;
+  }
+  .tecnologies{
+    max-width: 400px;
+  }
+  .h5D{
+    padding: 20px;
+    text-align: center;
+  }
+}
