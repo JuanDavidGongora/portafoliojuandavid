@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div>
                 <h5 className='h5'>
-                Desarrollador Full Stack en formación con énfasis en el front-end del desarrollo de aplicaciones y plataformas web, además cuento con conocimientos en HTML, CSS, JavaScript y React JS. Me caracterizo por ser perseverante, asertivo, con capacidad de adaptación, pensamiento crítico y sobre todo, abierto al aprendizaje. Actualmente estoy buscando posiciones que me permitan implementar mis conocimientos, desarrollar mi pasión por el front-end y aprender sobre nuevas tecnologías para mi crecimiento profesional.
+                Desarrollador Full Stack en formación con énfasis en el front-end del desarrollo de aplicaciones y plataformas web. Cuento con conocimientos en HTML, CSS, JavaScript y React JS. Me caracterizo por ser perseverante, asertivo, con capacidad de adaptación, pensamiento crítico y sobre todo, abierto al aprendizaje. Actualmente estoy buscando posiciones que me permitan implementar mis conocimientos, desarrollar mi pasión por el front-end y aprender sobre nuevas tecnologías para mi crecimiento profesional.
                 </h5>
             </div>
             
