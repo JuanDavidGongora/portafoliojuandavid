@@ -11,7 +11,7 @@ const NavBar = () => {
            <h4 className="name">Andrés Rodríguez</h4>
            <h4 className="colorName">{" />"}</h4>
          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="colorMenu" />
           <Navbar.Collapse id="basic-navbar-nav navLinks" style={{justifyContent: "end"}}>
             <Nav className="navLinks">
               <Nav.Link href="#home" className="links">

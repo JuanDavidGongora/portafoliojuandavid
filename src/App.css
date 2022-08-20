@@ -80,6 +80,10 @@ a{
   color: var(--color-nine) !important;
 }
 
+.colorMenu{
+  filter: invert(76%) sepia(7%) saturate(279%) hue-rotate(166deg) brightness(89%) contrast(85%);
+}
+
 
 
 /* End NavBar */
