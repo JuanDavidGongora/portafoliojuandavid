@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import espCV from '../docs/espCV.pdf'
-import engCV from '../docs/engCV.pdf'
+import espCV from '../docs/andresRodriguezFrontEndDevEsCV.pdf'
+import engCV from '../docs/andresRodriguezFrontEndDevEnCV.pdf'
 
 const CvToggle = () => {
   const [toggle, setToggle] = useState(false);
@@ -21,7 +21,7 @@ const CvToggle = () => {
       <div className="pdfFile">
         {toggle ? (
             <>
-            <a href={engCV} download={"CV English"} className="aButton">
+            <a href={engCV} download={"Andres Rodriguez - Front End Dev - enCV"} className="aButton">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -31,7 +31,7 @@ const CvToggle = () => {
             </>
         ) : (
             <>
-            <a href={espCV} download={"HV Español"} className="aButton">
+            <a href={espCV} download={"Andres Rodriguez - Front End Dev - esCV"} className="aButton">
                 <span></span>
                 <span></span>
                 <span></span>
