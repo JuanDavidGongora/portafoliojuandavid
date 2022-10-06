@@ -7,7 +7,7 @@ import emailOpenImg from "../images/openMail.png"
 
 const Contact = () => {
   return (
-    <div className="aboutMe" id='s-contact'>
+    <div className="aboutMe" id='s-contact' style={{paddingTop: "4rem"}}>
       <div>
         <h1 className="h1">Contáctame</h1>
       </div>
