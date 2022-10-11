@@ -21,6 +21,10 @@
 a{
   text-decoration: none !important;
 }
+.root{
+  background: #0B0C15;
+  overflow-x: hidden !important;
+}
 
 /* Particles */
 

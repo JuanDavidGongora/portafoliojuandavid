@@ -16,6 +16,7 @@ const CvToggle = () => {
           type="checkbox"
           checked={toggle}
           onChange={(e) => setToggle(e.target.checked)}
+          title='Escoge el idioma del archivo de descarga'
         />
       </div>
       <div className="pdfFile">

@@ -15,8 +15,8 @@ function App() {
   return (
     <>
     <NavBar/>
-    <ParticlesBackground/>
     <div className='container mt-3 body' style={{background: "#0B0C15"}}>
+      <ParticlesBackground/>
       <Header/>
       <CvToggle/>
       <About/>
