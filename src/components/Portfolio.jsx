@@ -14,7 +14,7 @@ import gitHub from '../images/Github.png'
 
 const Portfolio = () => {
     return (
-        <div className='aboutMe' id='s-portfolio' style={{paddingTop: "4rem"}}>
+        <div className='aboutMe' id='s-portfolio' style={{ paddingTop: "4rem" }}>
             <div>
                 <h1 className='h1'>
                     Portafolio
@@ -23,67 +23,67 @@ const Portfolio = () => {
             <div className='wrap'>
                 <div className='boxPortfolio'>
                     <a href="https://pokedex-api2022.netlify.app/" target="_blank">
-                        <img src={pokedex} className='imgPortfolio'/>
+                        <img src={pokedex} className='imgPortfolio' />
                         <div className='cap'>
-                            <img src={react} className='imgHover'/>
-                            <img src={html} className='imgHover'/>
-                            <img src={css} className='imgHover'/>
-                            <img src={reactRouter} className='imgHover'/>
-                            <img src={redux} className='imgHover'/>
-                        <p className='infoHover'>
-                            <b>Pokedex</b>
-                            Consulta la información detallada de tu pókemon favorito.
-                        </p>
+                            <img src={react} className='imgHover' />
+                            <img src={html} className='imgHover' />
+                            <img src={css} className='imgHover' />
+                            <img src={reactRouter} className='imgHover' />
+                            <img src={redux} className='imgHover' />
+                            <p className='infoHover'>
+                                <b>Pokedex</b>
+                                Consulta la información detallada de tu pókemon favorito.
+                            </p>
                         </div>
                     </a>
                 </div>
                 <div className='boxPortfolio'>
                     <a href="https://ecommerce-academlo-api.netlify.app/" target="_blank">
-                        <img src={ecommerce} className='imgPortfolio'/>
+                        <img src={ecommerce} className='imgPortfolio' />
                         <div className='cap'>
-                            <img src={react} className='imgHover'/>
-                            <img src={html} className='imgHover'/>
-                            <img src={css} className='imgHover'/>
-                            <img src={reactRouter} className='imgHover'/>
-                            <img src={redux} className='imgHover'/>
-                            <img src={bootstrap} className='imgHover'/>
-                        <p className='infoHover'>
-                            <b>Ecommerce</b>
-                            Crea tu usuario, inicia sesión y realiza compras de tecnología.
-                        </p>
+                            <img src={react} className='imgHover' />
+                            <img src={html} className='imgHover' />
+                            <img src={css} className='imgHover' />
+                            <img src={reactRouter} className='imgHover' />
+                            <img src={redux} className='imgHover' />
+                            <img src={bootstrap} className='imgHover' />
+                            <p className='infoHover'>
+                                <b>Ecommerce</b>
+                                Crea tu usuario, inicia sesión y realiza compras de tecnología.
+                            </p>
                         </div>
                     </a>
                 </div>
                 <div className='boxPortfolio'>
                     <a href="https://rick-and-mortys-wiki-api.netlify.app" target="_blank">
-                        <img src={wiki} className='imgPortfolio'/>
+                        <img src={wiki} className='imgPortfolio' />
                         <div className='cap'>
-                            <img src={react} className='imgHover'/>
-                            <img src={html} className='imgHover'/>
-                            <img src={css} className='imgHover'/>
-                        <p className='infoHover'>
-                            <b>Rick & Morty's Wiki</b>
-                            Encuentra todos los mundos y sus personajes.
-                        </p>
+                            <img src={react} className='imgHover' />
+                            <img src={html} className='imgHover' />
+                            <img src={css} className='imgHover' />
+                            <p className='infoHover'>
+                                <b>Rick & Morty's Wiki</b>
+                                Encuentra todos los mundos y sus personajes.
+                            </p>
                         </div>
                     </a>
                 </div>
                 <div className='boxPortfolio'>
                     <a href="https://lambent-kheer-45042f.netlify.app" target="_blank">
-                        <img src={weather} className='imgPortfolio'/>
+                        <img src={weather} className='imgPortfolio' />
                         <div className='cap'>
-                            <img src={react} className='imgHover'/>
-                            <img src={html} className='imgHover'/>
-                            <img src={css} className='imgHover'/>
-                        <p className='infoHover'>
-                            <b>Weather App</b>
-                            Consulta el clima en la ubicación que te encuentres.
-                        </p>
+                            <img src={react} className='imgHover' />
+                            <img src={html} className='imgHover' />
+                            <img src={css} className='imgHover' />
+                            <p className='infoHover'>
+                                <b>Weather App</b>
+                                Consulta el clima en la ubicación que te encuentres.
+                            </p>
                         </div>
                     </a>
                 </div>
             </div>
-            
+
         </div>
     );
 };
