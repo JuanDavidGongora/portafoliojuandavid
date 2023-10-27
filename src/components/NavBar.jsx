@@ -8,7 +8,7 @@ const NavBar = () => {
         <Container>
              <Navbar.Brand href="#home" className="navEdit">
            <h4 className="colorName">{"< "}</h4>
-           <h4 className="name">Andrés Rodríguez</h4>
+           <h4 className="name">Juan David Gongora Baez</h4>
            <h4 className="colorName">{" />"}</h4>
          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="colorMenu" />

@@ -10,8 +10,16 @@ const About = () => {
             </div>
             <div>
                 <h5 className='h5'>
-                {/* Desarrollador Full Stack, con experiencia desarrollando y diseñando aplicaciones y plataformas web a través del consumo de API's, garantizando la optimización y el acceso a las mismas a través de diseños responsivos con el usuario. Cuento con conocimientos en HTML, CSS, JavaScript, React JS, Github, Node JS, Express JS, Postman y PostgreSQL. Me caracterizo por ser un profesional con gran capacidad de análisis y adaptabilidad al cambio. Actualmente estoy en busqueda de oportunidades laborales en las que pueda seguir aprendiendo y desarrollando mi pasión por el front-end y sobre nuevas tecnologías para mi crecimiento profesional. */}
-                Desarrollador Front-End con inglés B2 y experiencia desarrollando y diseñando aplicaciones y plataformas web a través del consumo de API's, garantizando la optimización y el acceso a las mismas através de diseños responsivos con el usuario. Cuento con conocimientos en HTML, CSS, JavaScript, React JS, Git, Node JS, Express JS, Python y Wagtail. Me caracterizo por ser un profesional con gran capacidad de análisis y adaptabilidad al cambio. Actualmente estoy en busqueda de oportunidades laborales en las que pueda seguir aprendiendo y desarrollando mi pasión por el front-end y sobre nuevas tecnologías para mi crecimiento profesional.
+                {/* Mi presentacion  */}
+                Estudiante de ingenieria de Software, en la universidad Politecnico Gran Colombiano 
+                 y estudiante, para desarrollador Front-End, en Academlo,  
+                 tengo experiencia desarrollando y diseñando aplicaciones y 
+                 plataformas web a través del consumo de API's,
+                  garantizando la optimización y el acceso a las mismas 
+                  através de diseños responsivos con el usuario. 
+                  Cuento con conocimientos en HTML, 
+                  CSS, JavaScript, React JS, Git, Node JS. 
+                  
                 </h5>
             </div>
             

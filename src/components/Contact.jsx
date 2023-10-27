@@ -27,22 +27,22 @@ const Contact = () => {
 
         <div className="marginContactRight">
 
-            <a href="tel:+573178647007" target="_blank" className="aButton contactButton">
+            <a href="tel:+573106583256" target="_blank" className="aButton contactButton">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 <i className='bx bxs-phone iconCon'></i>
-                +57 (317) 864 7007
+                +57 (310) 658 3256
             </a>
 
-            <a href="mailto:andres.baez24@hotmail.com" target="_blank" className="aButton contactButton">
+            <a href="mailto:juandavid.623@gmail.com" target="_blank" className="aButton contactButton">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 <i className='bx bxs-envelope iconCon'></i>
-                andres.baez24@hotmail.com
+                juandavid.623@gmail.com
             </a>
 
         </div>

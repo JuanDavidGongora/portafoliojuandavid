@@ -5,11 +5,11 @@ const Footer = () => {
         <footer className='footer'>
         <div>
             <h5>
-                © Andrés Rodríguez Developer
+                © Juan David Gongora Developer
             </h5>
             <div className='icon-container'>
                 <a 
-                href="https://github.com/andresrbaez" 
+                href="https://github.com/JuanDavidGongora" 
                 target="_blank"
                 className='a-decoration'
                 >
@@ -19,19 +19,9 @@ const Footer = () => {
                     <span></span>
                     <i className='bx bxl-github icon-size' aria-hidden='true'></i>
                 </a>
+                
                 <a 
-                href="https://www.linkedin.com/in/andresrbaez/" 
-                target="_blank"
-                className='a-decoration'
-                >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <i className='bx bxl-linkedin icon-size' aria-hidden='true'></i>
-                </a>
-                <a 
-                href="https://wa.me/573178647007" 
+                href="https://wa.me/573106583256" 
                 target="_blank"
                 className='a-decoration'
                 >

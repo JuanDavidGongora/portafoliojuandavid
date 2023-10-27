@@ -1,5 +1,5 @@
 import React from 'react';
-import personalImg from '../images/personal.png'
+import personalImg from '../images/juan.jpg'
 
 
 const Header = () => {
@@ -11,11 +11,11 @@ const Header = () => {
                         <img src={personalImg} className="imgHeaderCircle" />
                     </div>
                     <div>
-                        <h1>Desarrollador Front End</h1>
+                        <h1>Aspirante a Desarrollador Front End</h1>
                     </div>
                     <div>
                         <h5 className='h5D' style={{position: "relative", zIndex: "99"}}>
-                            Me encantan los retos y los videojuegos 🕹️
+                            Amo la tecnologia y me gustan los videojuegos de aventuras 🕹️
                         </h5>
                     </div>
                 </div>

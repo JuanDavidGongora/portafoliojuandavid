@@ -1,8 +1,8 @@
 import React from 'react';
-import pokedex from '../images/pokedex.png'
-import wiki from '../images/miniWiki.png'
-import weather from '../images/weatherAPI.png'
-import ecommerce from '../images/ecommerce.png'
+import pokedex from '../images/pokedex.jpg'
+import wiki from '../images/miniWiki.jpg'
+import weather from '../images/weatherAPI.jpg'
+import ecommerce from '../images/ecommerce.jpg'
 import css from '../images/CSS.png'
 import html from '../images/Html.png'
 import javaScript from '../images/JavaScript.png'
@@ -22,7 +22,7 @@ const Portfolio = () => {
             </div>
             <div className='wrap'>
                 <div className='boxPortfolio'>
-                    <a href="https://pokedex-api2022.netlify.app/" target="_blank">
+                    <a href="https://pokedexdejuanda.netlify.app/#/" target="_blank">
                         <img src={pokedex} className='imgPortfolio' />
                         <div className='cap'>
                             <img src={react} className='imgHover' />
@@ -38,24 +38,22 @@ const Portfolio = () => {
                     </a>
                 </div>
                 <div className='boxPortfolio'>
-                    <a href="https://ecommerce-academlo-api.netlify.app/" target="_blank">
+                    <a href="https://ecommercejuanda.netlify.app/" target="_blank">
                         <img src={ecommerce} className='imgPortfolio' />
                         <div className='cap'>
                             <img src={react} className='imgHover' />
                             <img src={html} className='imgHover' />
-                            <img src={css} className='imgHover' />
-                            <img src={reactRouter} className='imgHover' />
+                            <img src={css} className='imgHover' />  
                             <img src={redux} className='imgHover' />
-                            <img src={bootstrap} className='imgHover' />
                             <p className='infoHover'>
                                 <b>Ecommerce</b>
-                                Crea tu usuario, inicia sesión y realiza compras de tecnología.
+                                 Rrealiza compras de merchandising de Academlo y coloca tu ecommerce, en Darkmode.
                             </p>
                         </div>
                     </a>
                 </div>
                 <div className='boxPortfolio'>
-                    <a href="https://rick-and-mortys-wiki-api.netlify.app" target="_blank">
+                    <a href="https://universorickjuanda.netlify.app/" target="_blank">
                         <img src={wiki} className='imgPortfolio' />
                         <div className='cap'>
                             <img src={react} className='imgHover' />
