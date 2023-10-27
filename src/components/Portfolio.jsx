@@ -40,10 +40,8 @@ const Portfolio = () => {
                     <a href="https://ecommercejuanda.netlify.app/" target="_blank">
                         <img src={ecommerce} className='imgPortfolio' />
                         <div className='cap'>
-                            <img src={react} className='imgHover' />
                             <img src={html} className='imgHover' />
                             <img src={css} className='imgHover' />  
-                            <img src={redux} className='imgHover' />
                             <p className='infoHover'>
                                 <b>Ecommerce</b>
                                  Rrealiza compras de merchandising de Academlo y coloca tu ecommerce, en Darkmode.
