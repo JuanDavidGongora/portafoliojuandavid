@@ -8,8 +8,8 @@ import html from '../images/Html.png'
 import javaScript from '../images/JavaScript.png'
 import react from '../images/React.png'
 import redux from '../images/Redux.png'
-import reactRouter from '../images/reactRouter.png'
-import bootstrap from '../images/Bootstrap.png'
+
+
 import gitHub from '../images/Github.png'
 
 const Portfolio = () => {
