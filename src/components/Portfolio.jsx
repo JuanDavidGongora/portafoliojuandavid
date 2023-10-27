@@ -28,7 +28,6 @@ const Portfolio = () => {
                             <img src={react} className='imgHover' />
                             <img src={html} className='imgHover' />
                             <img src={css} className='imgHover' />
-                            <img src={reactRouter} className='imgHover' />
                             <img src={redux} className='imgHover' />
                             <p className='infoHover'>
                                 <b>Pokedex</b>
@@ -67,7 +66,7 @@ const Portfolio = () => {
                     </a>
                 </div>
                 <div className='boxPortfolio'>
-                    <a href="https://lambent-kheer-45042f.netlify.app" target="_blank">
+                    <a href="https://appclimajuanda.netlify.app/" target="_blank">
                         <img src={weather} className='imgPortfolio' />
                         <div className='cap'>
                             <img src={react} className='imgHover' />
