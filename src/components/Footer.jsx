@@ -19,6 +19,18 @@ const Footer = () => {
                     <span></span>
                     <i className='bx bxl-github icon-size' aria-hidden='true'></i>
                 </a>
+
+                  <a 
+                href="https://www.linkedin.com/in/juan-gongora-7b3a7b29a" 
+                target="_blank"
+                className='a-decoration'
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <i className='bx bxl-linkedin icon-size' aria-hidden='true'></i>
+                </a>
                 
                 <a 
                 href="https://wa.me/573106583256" 
