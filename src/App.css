@@ -109,7 +109,7 @@ a{
   position: relative;
   z-index: 99;
   width: 240px;
-  height: 240px;
+  
   border-radius: 50%;
   object-fit: contain;
   padding: 5px;
