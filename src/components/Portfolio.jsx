@@ -77,6 +77,22 @@ const Portfolio = () => {
                         </div>
                     </a>
                 </div>
+                <div className='boxPortfolio'>
+                    <a href="https://appmusicjuanda.netlify.app/" target="_blank">
+                        <img src={appmusic} className='imgPortfolio' />
+                        <div className='cap'>
+                            <img src={react} className='imgHover' />
+                            <img src={html} className='imgHover' />
+                            <img src={css} className='imgHover' />  
+                            <img src={redux} className='imgHover' />
+                            <img src={reactRouter} className='imgHover' />
+                            <p className='infoHover'>
+                                <b>App Music</b>
+                                 Crea una lista de musica, para regalarle a una persona especial.
+                            </p>
+                        </div>
+                    </a>
+                </div>
             </div>
 
         </div>
