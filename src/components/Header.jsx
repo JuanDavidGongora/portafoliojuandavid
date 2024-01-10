@@ -11,7 +11,7 @@ const Header = () => {
                         <img src={personalImg} className="imgHeaderCircle" />
                     </div>
                     <div>
-                        <h1>Desarrollador Front End</h1>
+                        <h1>Desarrollador Full stack</h1>
                     </div>
                     <div>
                         <h5 className='h5D' style={{position: "relative", zIndex: "99"}}>
