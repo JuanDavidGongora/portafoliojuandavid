@@ -12,7 +12,7 @@ const About = () => {
                 <h5 className='h5'>
                 {/* Mi presentacion  */}
                 Estudiante de ingenieria de Software, en la universidad Politecnico Gran Colombiano 
-                 y estudiante, para desarrollador Front-End, en Academlo,  
+                 y desarrollador Full-Stack, de Academlo,  
                  tengo experiencia desarrollando y diseñando aplicaciones y 
                  plataformas web a través del consumo de API's,
                   garantizando la optimización y el acceso a las mismas 
